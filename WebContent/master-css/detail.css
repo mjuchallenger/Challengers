@@ -1,0 +1,104 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.title{
+  margin-top: 20px;
+  color: white;
+}
+
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  flex-direction: column;
+  background-color: #56B7E6;
+  border-radius: 20px;
+  margin: 100px;
+  padding: 10px;
+  box-shadow: 7px 5px 5px 5px rgb(226, 226, 226);
+}
+
+.main-text{
+  margin-top: 20px;
+  color:white;
+}
+
+.text-1{
+  margin-top: 20px;
+}
+
+.text-2{
+  margin-top: 30px;
+}
+
+.text-2 a{
+  color: #ffff00;
+}
+
+.text-3{
+  margin-top: 30px;
+}
+
+
+p{
+  margin: 10px;
+  font-weight: 600;
+}
+
+.btn-home input{
+  border: none;
+  border-radius: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: DO Hyeon;
+  background-color: #56B7E6;
+  color: white;
+  margin-top: 20px;
+  width: 200px;
+  height: 50px;
+  
+}
+
+.btn-home{
+  margin-top: -30px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.poster-show input{
+  border: none;
+  border-radius: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: DO Hyeon;
+  background-color: white;
+  color: black;
+  margin-top: 20px;
+  width: 200px;
+  height: 50px;
+}
+
+.poster-show{
+  margin-top: 30px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 764px) {
+  .container{
+    margin: 20px;
+    padding: 10px;
+  }
+
+  .btn-home{
+    margin-top: 10px;
+  }
+}

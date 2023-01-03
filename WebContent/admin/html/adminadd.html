@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>관리자 추가</title>
+  <link rel="stylesheet" href="../css/adminadd.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="main-container">
+       <form method="post" action="../../grantStatus" enctype="UTF-8">
+        <div class="title">
+          <h1>관리자 추가하기</h1>
+        </div>
+        <div class="name">
+          <input type="text" id="name" name="name" placeholder="이름" required oninvalid="this.setCustomValidity('이름을 입력해주세요.')" oninput="this.setCustomValidity('')">
+        </div>
+        <div class="student-num">
+          <input type="text" id="student-num" name="student-num" placeholder="학번" required oninvalid="this.setCustomValidity('학번를 입력해주세요.')" oninput="this.setCustomValidity('')">
+        </div>
+        <div class="major">
+          <input type="text" id="major" name="Major" placeholder="학과" required oninvalid="this.setCustomValidity('학과를 입력해주세요.')" oninput="this.setCustomValidity('')">
+        </div>
+        <div class="phone">
+          <input type="telephone" id="phone" name="phoneNum" placeholder="전화번호" required oninvalid="this.setCustomValidity('전화번호를 입력해주세요.')" oninput="this.setCustomValidity('')">
+        </div>
+        <div class="send-btn">
+          <input type="submit" value="추가하기">
+		  <input type="hidden" name="status" value="ADMIN">
+        </div>
+      </form>
+
+    </div>
+  </div>
+</body>
+
+</html>

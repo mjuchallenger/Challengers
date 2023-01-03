@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>챌린저스 지원하기</title>
+  <link rel="icon" type="image/png" href="img/Challengers Logo -2.png"/>
+  <link rel="stylesheet" href="master-css/apply.css">
+</head>
+
+<body>
+<div class="container">
+  <div class="main-container">
+    <form action="SApply" method="post">
+      <div class="title">
+        <h1>지원하기</h1>
+      </div>
+      <div class="name">
+        <input type="text" name="name" id="name" placeholder="이름" required
+               oninvalid="this.setCustomValidity('이름을 입력해주세요.')" oninput="this.setCustomValidity('')">
+      </div>
+      <div class="student-num">
+        <input type="text" name="student-num" id="student-num" placeholder="학번" required
+               oninvalid="this.setCustomValidity('학번를 입력해주세요.')" oninput="this.setCustomValidity('')" maxlength="8">
+      </div>
+      <div class="major">
+        <input type="text" name="major" id="major" placeholder="학과" required oninvalid="this.setCustomValidity('학과를 입력해주세요.')"
+               oninput="this.setCustomValidity('')">
+      </div>
+      <div class="grade">
+        <input type="text" name="grade" id="grade" placeholder="학년" required
+               oninvalid="this.setCustomValidity('학년을 입력해주세요.')" oninput="this.setCustomValidity('')" maxlength="1">
+      </div>
+      <div class="phone">
+        <input type="telephone" name="phone" id="phone" placeholder="전화번호" required
+               oninvalid="this.setCustomValidity('전화번호를 입력해주세요.')" oninput="this.setCustomValidity('')">
+      </div>
+      <div class="privacy">
+        <input type="checkbox" name="" id="privacy" required oninvalid="this.setCustomValidity('개인정보 동의를 해주세요')"
+               oninput="this.setCustomValidity('')">
+        개인정보제공동의
+        <p>개인정보는 동아리 지원 안내메세지 및 단체메세지 초대에 활용됩니다.
+          탈퇴 이후 개인정보는 폐기됩니다.
+          <br> 1. 챌린지 인증 앱 사용에 활용
+          <br> 2. 동아리 명단 작성에 활용
+          <br>(개인정보제공 거부시 동아리 지원이 어렵습니다. 개인정보는 동아리 서버에 저장되며, 동아리 활동 이외에에는 전혀 사용되지 않습니다.)
+        </p>
+      </div>
+      <div class="send-btn">
+        <input type="submit" value="가입하기">
+      </div>
+    </form>
+
+  </div>
+</div>
+</body>
+
+</html>

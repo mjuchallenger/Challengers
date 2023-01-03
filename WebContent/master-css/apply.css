@@ -1,0 +1,198 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #56B7E6;
+  color: white;
+}
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  padding: 18px;
+  background-color: #56B7E6;
+}
+
+.main-container form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+input{
+  border: none;
+}
+
+.title{
+  display: flex;
+  font-family: Do hyeon;
+  margin-top: 20px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.name input{
+  margin-top: 20px;
+  width: 370px;
+  height: 50px;
+  border-radius: 10px;
+  padding-left: 5px;
+}
+
+.student-num input{
+  margin-top: 20px;
+  width: 370px;
+  height: 50px;
+  border-radius: 10px;
+  padding-left: 5px;
+}
+
+.major input{
+  margin-top: 20px;
+  width: 370px;
+  height: 50px;
+  border-radius: 10px;
+  padding-left: 5px;
+}
+
+.grade input{
+  margin-top: 20px;
+  width: 370px;
+  height: 50px;
+  border-radius: 10px;
+  padding-left: 5px;
+}
+
+.phone input{
+  margin-top: 20px;
+  width: 370px;
+  height: 50px;
+  border-radius: 10px;
+  padding-left: 5px;
+}
+
+
+.privacy {
+  font-size: 15px;
+}
+.privacy{
+  margin-top: 20px;
+}
+.privacy p{
+  font-size: 15px;
+}
+
+.send-btn input{
+  margin-top: 30px;
+  width: 210px;
+  height: 40px;
+  background-color: white;
+  border-radius: 10px;
+  color: black;
+  font-family: 'Segoe UI';
+  font-weight: 1000;
+  font-size: 20px;
+}
+
+.send-btn input:hover{
+  background-color: #56B7E6;
+  color: white;
+}
+
+/* Mobile Version */
+@media (max-width: 780px) {
+
+body{
+  background-color: white;
+}
+
+.main-container form{
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+input{
+  border: none;
+}
+
+.title{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.name input{
+  margin-top: 20px;
+  width: 270px;
+  height: 50px;
+  border-radius: 10px;
+  padding-left: 5px;
+}
+
+.student-num input{
+  margin-top: 20px;
+  width: 270px;
+  height: 50px;
+  border-radius: 10px;
+  padding-left: 5px;
+}
+
+.major input{
+  margin-top: 20px;
+  width: 270px;
+  height: 50px;
+  border-radius: 10px;
+  padding-left: 5px;
+}
+
+.grade input{
+  margin-top: 20px;
+  width: 270px;
+  height: 50px;
+  border-radius: 10px;
+  padding-left: 5px;
+}
+
+.phone input{
+  margin-top: 20px;
+  width: 270px;
+  height: 50px;
+  border-radius: 10px;
+  padding-left: 5px;
+}
+
+
+.privacy a{
+  color: white;
+}
+.privacy{
+  margin-top: 20px;
+}
+.privacy p{
+  font-size: 15px;
+}
+
+.send-btn input{
+  margin-top: 30px;
+  width: 210px;
+  height: 40px;
+  background-color: white;
+  border-radius: 10px;
+  color: black;
+  font-family: 'Segoe UI';
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.send-btn input:hover{
+  background-color: #56B7E6;
+  color: white;
+}
+}

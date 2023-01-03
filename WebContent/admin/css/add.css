@@ -1,0 +1,43 @@
+body{
+  background-color: #56B7E6;
+  text-align: center;
+}
+
+form{
+  margin-top: 20%;
+}
+
+label{
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+}
+
+.text{
+  width: 250px;
+  height: 30px;
+  border-radius: 10px;
+  border: none;
+}
+
+.btn{
+  width: 150px;
+  height: 30px;
+  border-radius: 20px;
+  border: none;
+  background-color: white;
+  color: black;
+}
+
+.btn:hover{
+  background-color: black;
+  color: white;
+}
+
+@media screen and (max-width: 768px) {
+
+  form{
+    margin-top: 50%;
+  }
+  
+}
